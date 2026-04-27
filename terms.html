@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title data-i18n="meta.title">Términos de Servicio — HaLian Prime</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta.desc" content="Términos de servicio de HaLian Prime LLC. Condiciones aplicables al uso de nuestro sitio web y servicios." />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FF6B35'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='18' font-weight='700' fill='white' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" />
+<style>
+  :root {
+    --cream: #FFF8F3;
+    --white: #FFFFFF;
+    --orange: #FF6B35;
+    --orange-dark: #C84A1F;
+    --text: #1A1A1A;
+    --text-body: #2A2A2A;
+    --text-meta: #6A6A6A;
+    --border: #E0DAD0;
+    --shadow-sm: 0 1px 2px rgba(40,30,20,0.04), 0 2px 8px rgba(40,30,20,0.04);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--text-body);
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .legal-nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255,248,243,0.92);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  .legal-nav-inner {
+    max-width: 760px; margin: 0 auto;
+    padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .back {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: var(--orange-dark); text-decoration: none; font-weight: 600;
+    font-size: 15px;
+  }
+  .back:hover { text-decoration: underline; }
+  .lang-toggle {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 6px 10px;
+    border-radius: 100px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px; font-weight: 600;
+    color: var(--text-meta);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+  }
+  .lang-toggle:hover { border-color: var(--orange); }
+  .lang-toggle .lang-opt {
+    padding: 2px 6px;
+    border-radius: 100px;
+    transition: all 0.2s;
+    letter-spacing: 0.04em;
+  }
+  .lang-toggle .lang-opt.active {
+    background: var(--orange);
+    color: var(--white);
+  }
+  .lang-toggle .lang-divider {
+    color: #C5C0B8;
+    font-weight: 400;
+  }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 50px 24px 100px; }
+  h1 {
+    color: var(--text);
+    font-size: 40px; font-weight: 700; letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  .updated {
+    color: var(--text-meta); font-size: 14px; margin-bottom: 40px;
+  }
+  h2 {
+    color: var(--text);
+    font-size: 24px; font-weight: 700; margin-top: 44px; margin-bottom: 14px;
+    letter-spacing: -0.01em;
+  }
+  p, li { color: var(--text-body); margin-bottom: 16px; font-size: 17px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 10px; }
+  strong { color: var(--text); font-weight: 700; }
+  a { color: var(--orange-dark); font-weight: 500; text-decoration: underline; }
+  a:hover { color: var(--orange); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 50px 0 30px; }
+  .footer-mini {
+    color: var(--text-meta); font-size: 14px; line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="legal-nav">
+  <div class="legal-nav-inner">
+    <a href="/" class="back" data-i18n="nav.back">← Volver a halianprime.com</a>
+    <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+      <span class="lang-opt active" data-lang="es">ES</span>
+      <span class="lang-divider">·</span>
+      <span class="lang-opt" data-lang="en">EN</span>
+    </button>
+  </div>
+</div>
+
+<div class="container">
+  <h1 data-i18n="page.title">Términos de Servicio</h1>
+  <p class="updated" data-i18n="page.updated">Última actualización: 26 abril 2026</p>
+
+  <h2 data-i18n="s1.h">1. Aceptación de los términos</h2>
+  <p data-i18n="s1.p">Al usar el sitio halianprime.com o contratar los servicios de HaLian Prime LLC ("HaLian Prime", "nosotros"), aceptas estos términos. Si no estás de acuerdo con alguno, por favor no uses el sitio ni nuestros servicios.</p>
+
+  <h2 data-i18n="s2.h">2. Sobre nosotros</h2>
+  <p data-i18n="s2.p">HaLian Prime LLC es una empresa registrada en Texas, Estados Unidos (EIN 99-4183191) con dirección registrada en 2908 Wiscasset Dr, Arlington, TX 76010. Ofrecemos servicios de inteligencia artificial conversacional ("voice AI") para small business y home services hispanos.</p>
+
+  <h2 data-i18n="s3.h">3. Servicios que ofrecemos</h2>
+  <p data-i18n="s3.p">HaLian Prime ofrece la configuración, despliegue y mantenimiento de un asistente de voz inteligente que contesta llamadas telefónicas en español e inglés en nombre de tu negocio. Los detalles específicos de cada paquete (Starter, Pro, Elite) se acuerdan en el momento de la contratación mediante propuesta formal.</p>
+
+  <h2 data-i18n="s4.h">4. Modelo comercial</h2>
+  <ul>
+    <li data-i18n-html="s4.l1"><strong>Setup único + mensualidad:</strong> Cada paquete tiene un costo de setup pagadero al inicio (50% por adelantado, 50% al activar) y una tarifa mensual recurrente.</li>
+    <li data-i18n-html="s4.l2"><strong>Mes a mes:</strong> Los servicios se contratan mes a mes, sin compromisos de plazo mínimo más allá del mes en curso.</li>
+    <li data-i18n-html="s4.l3"><strong>Garantía de 30 días:</strong> Si en los primeros 30 días desde la activación el servicio no funciona como prometimos, devolvemos el 100% de la mensualidad pagada (el setup no es reembolsable porque cubre trabajo ya ejecutado).</li>
+    <li data-i18n-html="s4.l4"><strong>Cancelación:</strong> Puedes cancelar con 30 días de aviso por escrito. Sin penalidades.</li>
+  </ul>
+
+  <h2 data-i18n="s5.h">5. Tus responsabilidades como cliente</h2>
+  <p data-i18n="s5.p">Para que el servicio funcione, necesitamos que:</p>
+  <ul>
+    <li data-i18n="s5.l1">Nos proporciones información veraz sobre tu negocio (servicios, precios, horarios, zonas).</li>
+    <li data-i18n="s5.l2">Nos avises de cambios importantes en tu negocio que afecten al agente.</li>
+    <li data-i18n="s5.l3">Pagues la mensualidad puntualmente.</li>
+    <li data-i18n="s5.l4">No uses el servicio para actividades ilegales, fraudulentas o que violen derechos de terceros.</li>
+  </ul>
+
+  <h2 data-i18n="s6.h">6. Lo que NO hacemos</h2>
+  <p data-i18n-html="s6.p">HaLian Prime <strong>no</strong> se hace responsable de:</p>
+  <ul>
+    <li data-i18n="s6.l1">Las decisiones comerciales que tomes con base en información generada por el agente.</li>
+    <li data-i18n="s6.l2">Errores de información que el agente comparta si fueron causados por datos incorrectos que tú nos proporcionaste.</li>
+    <li data-i18n="s6.l3">Pérdidas indirectas, lucro cesante o daños consecuenciales más allá del monto de un mes de servicio.</li>
+    <li data-i18n="s6.l4">Interrupciones del servicio causadas por proveedores terceros (Twilio, Vapi, ElevenLabs, etc.) fuera de nuestro control razonable.</li>
+  </ul>
+
+  <h2 data-i18n="s7.h">7. Propiedad intelectual</h2>
+  <p data-i18n="s7.p">El código, las marcas, los diseños y la metodología de HaLian Prime son nuestra propiedad. Tú conservas la propiedad de los datos que nos proporciones sobre tu negocio. Las grabaciones de llamadas que el agente procese son de tu propiedad y se almacenan según nuestra Política de Privacidad.</p>
+
+  <h2 data-i18n="s8.h">8. Confidencialidad</h2>
+  <p data-i18n="s8.p">Tratamos toda la información que nos compartas sobre tu negocio como confidencial. No la compartiremos con competidores ni terceros sin tu consentimiento, excepto cuando la ley lo requiera.</p>
+
+  <h2 data-i18n="s9.h">9. Modificaciones a estos términos</h2>
+  <p data-i18n="s9.p">Podemos actualizar estos términos con 30 días de aviso por email. Si no estás de acuerdo con los cambios, puedes cancelar el servicio sin penalidad antes de que los nuevos términos entren en vigor.</p>
+
+  <h2 data-i18n="s10.h">10. Ley aplicable</h2>
+  <p data-i18n="s10.p">Estos términos se rigen por las leyes del Estado de Texas, Estados Unidos. Cualquier disputa se resolverá preferentemente mediante diálogo directo. Si no hay acuerdo, las partes se someten a la jurisdicción de los tribunales del Condado de Tarrant, Texas.</p>
+
+  <h2 data-i18n="s11.h">11. Contacto</h2>
+  <p data-i18n="s11.p1">Para cualquier pregunta sobre estos términos:</p>
+  <p data-i18n-html="s11.p2"><strong>HaLian Prime LLC</strong><br>Atn: Harold Gutierrez<br>2908 Wiscasset Dr, Arlington, TX 76010<br>Email: <a href="mailto:harold@halianprime.com">harold@halianprime.com</a></p>
+
+  <hr>
+  <p class="footer-mini" data-i18n-html="footer.mini">© 2026 HaLian Prime LLC. Todos los derechos reservados.<br>These terms of service are also available in English upon request.</p>
+</div>
+
+<script>
+  const I18N_ES = {};
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    I18N_ES[el.getAttribute('data-i18n')] = el.textContent;
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    I18N_ES[el.getAttribute('data-i18n-html')] = el.innerHTML;
+  });
+
+  const I18N_EN = {
+    'meta.title': 'Terms of Service — HaLian Prime',
+    'meta.desc': 'Terms of service for HaLian Prime LLC. Conditions for use of our website and services.',
+
+    'nav.back': '← Back to halianprime.com',
+
+    'page.title': 'Terms of Service',
+    'page.updated': 'Last updated: April 26, 2026',
+
+    's1.h': '1. Acceptance of terms',
+    's1.p': 'By using halianprime.com or contracting the services of HaLian Prime LLC ("HaLian Prime", "we"), you accept these terms. If you do not agree with any of them, please do not use the site or our services.',
+
+    's2.h': '2. About us',
+    's2.p': 'HaLian Prime LLC is a company registered in Texas, United States (EIN 99-4183191) with registered address at 2908 Wiscasset Dr, Arlington, TX 76010. We offer conversational AI services ("voice AI") for Hispanic small business and home services.',
+
+    's3.h': '3. Services we offer',
+    's3.p': 'HaLian Prime offers the configuration, deployment, and maintenance of an intelligent voice assistant that answers phone calls in Spanish and English on behalf of your business. The specific details of each package (Starter, Pro, Elite) are agreed upon at contracting time through a formal proposal.',
+
+    's4.h': '4. Commercial model',
+    's4.l1': '<strong>One-time setup + monthly fee:</strong> Each package has a setup cost paid at the start (50% upfront, 50% at activation) and a recurring monthly fee.',
+    's4.l2': '<strong>Month-to-month:</strong> Services are contracted month-to-month, with no minimum-term commitments beyond the current month.',
+    's4.l3': '<strong>30-day guarantee:</strong> If within the first 30 days from activation the service does not work as promised, we refund 100% of the monthly fee paid (the setup is non-refundable as it covers work already completed).',
+    's4.l4': '<strong>Cancellation:</strong> You can cancel with 30 days written notice. No penalties.',
+
+    's5.h': '5. Your responsibilities as a client',
+    's5.p': 'For the service to work, we need you to:',
+    's5.l1': 'Provide accurate information about your business (services, pricing, hours, areas).',
+    's5.l2': 'Notify us of significant changes in your business that affect the agent.',
+    's5.l3': 'Pay the monthly fee on time.',
+    's5.l4': 'Not use the service for illegal, fraudulent, or rights-infringing activities.',
+
+    's6.h': '6. What we DO NOT do',
+    's6.p': 'HaLian Prime is <strong>not</strong> responsible for:',
+    's6.l1': 'Commercial decisions you make based on information generated by the agent.',
+    's6.l2': 'Information errors the agent shares if caused by incorrect data you provided to us.',
+    's6.l3': 'Indirect losses, lost profits, or consequential damages beyond the amount of one month of service.',
+    's6.l4': 'Service interruptions caused by third-party providers (Twilio, Vapi, ElevenLabs, etc.) outside our reasonable control.',
+
+    's7.h': '7. Intellectual property',
+    's7.p': 'The code, brands, designs, and methodology of HaLian Prime are our property. You retain ownership of the data you provide about your business. Call recordings the agent processes are your property and are stored according to our Privacy Policy.',
+
+    's8.h': '8. Confidentiality',
+    's8.p': 'We treat all information you share about your business as confidential. We will not share it with competitors or third parties without your consent, except when required by law.',
+
+    's9.h': '9. Modifications to these terms',
+    's9.p': 'We can update these terms with 30 days notice via email. If you do not agree with the changes, you can cancel the service without penalty before the new terms take effect.',
+
+    's10.h': '10. Applicable law',
+    's10.p': 'These terms are governed by the laws of the State of Texas, United States. Any dispute will be resolved preferentially through direct dialogue. If no agreement is reached, the parties submit to the jurisdiction of the courts of Tarrant County, Texas.',
+
+    's11.h': '11. Contact',
+    's11.p1': 'For any questions about these terms:',
+    's11.p2': '<strong>HaLian Prime LLC</strong><br>Attn: Harold Gutierrez<br>2908 Wiscasset Dr, Arlington, TX 76010<br>Email: <a href="mailto:harold@halianprime.com">harold@halianprime.com</a>',
+
+    'footer.mini': '© 2026 HaLian Prime LLC. All rights reserved.<br>Estos términos de servicio también están disponibles en español.'
+  };
+
+  function applyLang(lang) {
+    const dict = lang === 'en' ? I18N_EN : I18N_ES;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const k = el.getAttribute('data-i18n');
+      if (dict[k] !== undefined) el.textContent = dict[k];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+      const k = el.getAttribute('data-i18n-html');
+      if (dict[k] !== undefined) el.innerHTML = dict[k];
+    });
+    document.querySelectorAll('[data-i18n-attr]').forEach(el => {
+      const attr = el.getAttribute('data-i18n-attr');
+      const k = el.getAttribute('data-i18n');
+      if (dict[k] !== undefined) el.setAttribute(attr, dict[k]);
+    });
+    document.querySelectorAll('.lang-opt').forEach(o => {
+      o.classList.toggle('active', o.getAttribute('data-lang') === lang);
+    });
+    document.documentElement.setAttribute('lang', lang);
+    try { localStorage.setItem('halian_lang', lang); } catch (_) {}
+  }
+
+  let initialLang = 'es';
+  try {
+    const saved = localStorage.getItem('halian_lang');
+    if (saved === 'en' || saved === 'es') initialLang = saved;
+  } catch (_) {}
+  applyLang(initialLang);
+
+  let currentLang = initialLang;
+  document.getElementById('lang-toggle').addEventListener('click', () => {
+    currentLang = currentLang === 'es' ? 'en' : 'es';
+    applyLang(currentLang);
+  });
+</script>
+
+</body>
+</html>
