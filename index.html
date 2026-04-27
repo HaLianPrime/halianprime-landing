@@ -102,6 +102,8 @@
     font-size: 17px;
     letter-spacing: -0.015em;
     color: var(--text);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .logo-mark {
     width: 30px; height: 30px;
@@ -111,6 +113,7 @@
     display: grid; place-items: center;
     font-size: 14px; font-weight: 700;
     color: var(--white);
+    flex-shrink: 0;
   }
   .nav-links {
     display: flex;
@@ -135,6 +138,8 @@
     text-decoration: none;
     transition: all 0.2s;
     box-shadow: var(--shadow-orange);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .nav-cta:hover {
     background: var(--orange-bright);
@@ -175,6 +180,18 @@
   }
   @media (max-width: 720px) {
     .nav-links { display: none; }
+    /* Nav compacto en mobile — evita que el logo y CTA se partan en 2 líneas */
+    .nav-inner { padding: 12px 14px; gap: 8px; }
+    .logo { font-size: 14px; gap: 6px; }
+    .logo-mark { width: 26px; height: 26px; font-size: 12px; border-radius: 7px; }
+    .nav-cta { padding: 8px 12px; font-size: 12px; border-radius: 8px; }
+    .lang-toggle { margin-left: 0; padding: 5px 8px; font-size: 11px; }
+    .lang-toggle .lang-opt { padding: 1px 4px; }
+  }
+  /* Pantallas muy pequeñas (iPhone SE, etc.) — esconder texto del logo, dejar solo el cuadrito H */
+  @media (max-width: 380px) {
+    .logo span { display: none; }
+    .nav-cta { padding: 7px 10px; font-size: 11px; }
   }
 
   /* ========== HERO ========== */
