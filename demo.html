@@ -343,7 +343,7 @@
     // ── Environment switch ──
     // Default: production. Override with ?env=local to test against local dev server.
     const ENVS = {
-      prod:  { url: 'https://halian-bots-production.up.railway.app/api/chat', key: 'hb_dev_intune_4f7c3237298b0fcd13703df2de9629f1' },
+      prod:  { url: 'https://api.halianprime.com/api/chat', key: 'hb_dev_intune_4f7c3237298b0fcd13703df2de9629f1' },
       local: { url: 'http://localhost:3000/api/chat',                          key: 'hb_dev_intune_141822dcfe85a74a720937417c020f59' },
     };
     const ENV_NAME = new URLSearchParams(window.location.search).get('env') === 'local' ? 'local' : 'prod';
